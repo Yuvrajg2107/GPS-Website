@@ -29,7 +29,7 @@ export default function Header() {
   ];
 
   return (
-    <div className="outer-container flex flex-col w-full h-[136px] bg-white text-black">
+    <div className="outer-container fixed top-0 left-0 z-50 flex flex-col w-full h-[136px] bg-white text-black">
 
       {/* TOP HEADER */}
       <div className="header-container flex justify-between px-12 w-full bg-white h-[96px] items-center">
